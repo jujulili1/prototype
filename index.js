@@ -1,7 +1,7 @@
 Number.prototype.powerFive = function(num) {
-    return Math.pow(num, 5)
+    return Math.pow(this, 5)
 }
 
-let num = 0
+let number = 10
 
-console.log(num.powerFive(2))
+console.log(number.powerFive())
